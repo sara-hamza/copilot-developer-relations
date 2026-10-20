@@ -1,7 +1,7 @@
 ---
 name: developer-assistant
 description: This skill should be used when a developer relations staff member pastes a development plan, lot schedule, stage programme, project notes or developer emails and asks to "summarise the requirements", "what is still open", "write the questions for the developer" or "prepare the handover to delivery". Covers greenfield estate and MDU intake. Local only; no project systems.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Developer Assistant

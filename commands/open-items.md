@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules.
-2. Take the as-of date from an `as-of:` token, else the input, else today. Extract every item that is waiting on someone using the "open item" test in `references/development-intake-checklist.md` (section "What counts as an open item"). Group by the intake topics.
+2. Take the as-of date from an `as-of:` token, else the input, else today. Extract every item that is waiting on someone using the "open item" test in `${CLAUDE_PLUGIN_ROOT}/skills/developer-assistant/references/development-intake-checklist.md` (section "What counts as an open item"). Group by the intake topics.
 3. Produce exactly this template:
 
 ```

@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules.
-2. Compare the input with `references/development-intake-checklist.md` to find the gaps. For each gap pick or adapt the question from `references/developer-question-bank.md`. Do not ask what the input already answers; cite it under ALREADY KNOWN so the developer is not asked twice.
+2. Compare the input with `${CLAUDE_PLUGIN_ROOT}/skills/developer-assistant/references/development-intake-checklist.md` to find the gaps. For each gap pick or adapt the question from `${CLAUDE_PLUGIN_ROOT}/skills/developer-assistant/references/developer-question-bank.md`. Do not ask what the input already answers; cite it under ALREADY KNOWN so the developer is not asked twice.
 3. Use writing-helper developer tone: professional, confident, no internal process detail. Explain in one clause why each question matters when it is not obvious.
 4. Produce exactly this template:
 

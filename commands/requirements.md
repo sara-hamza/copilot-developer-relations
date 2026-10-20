@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules. If a development plan or drawing PDF is named, apply document-reader and cite pages. If a lot schedule or stage programme spreadsheet is named, apply spreadsheet-reader and state which columns were used for lot, stage, dwelling type and dates.
-2. Walk `references/development-intake-checklist.md` field by field. Mark each as known (with source), partly known, or missing. Missing fields become QUESTIONS FOR DEVELOPER using the wording in `references/developer-question-bank.md`.
+2. Walk `${CLAUDE_PLUGIN_ROOT}/skills/developer-assistant/references/development-intake-checklist.md` field by field. Mark each as known (with source), partly known, or missing. Missing fields become QUESTIONS FOR DEVELOPER using the wording in `${CLAUDE_PLUGIN_ROOT}/skills/developer-assistant/references/developer-question-bank.md`.
 3. Produce exactly this template:
 
 ```

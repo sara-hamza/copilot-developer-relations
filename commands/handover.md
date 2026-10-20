@@ -9,7 +9,7 @@ $ARGUMENTS
 
 Steps:
 1. Apply copilot-common privacy rules. Apply document-reader to named PDFs and spreadsheet-reader to named lot schedules; cite pages and rows.
-2. Fill `references/handover-to-delivery-template.md` section by section. For every checklist item write present (with source), partial, or MISSING. Do not fill a gap with an assumption.
+2. Fill `${CLAUDE_PLUGIN_ROOT}/skills/developer-assistant/references/handover-to-delivery-template.md` section by section. For every checklist item write present (with source), partial, or MISSING. Do not fill a gap with an assumption.
 3. Produce the pack in this structure:
 
 ```
